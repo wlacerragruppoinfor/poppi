@@ -1,0 +1,116 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Sophos Endpoint API",
+    "version": "1.0.0",
+    "description": "API per ottenere i link agli installer degli endpoint per un tenant."
+  },
+  "servers": [
+    {
+      "url": "https://api-{dataRegion}.central.sophos.com/endpoint/v1",
+      "variables": {
+        "dataRegion": {
+          "default": "us01",
+          "description": "Regione dei dati del tenant (es. us01, eu01)"
+        }
+      }
+    }
+  ],
+  "paths": {
+    "/downloads": {
+      "get": {
+        "summary": "Ottiene i link agli installer degli endpoint",
+        "description": "Recupera tutti i link agli installer degli endpoint per un tenant specifico.",
+        "parameters": [
+          {
+            "name": "requestedProducts",
+            "in": "query",
+            "description": "Prodotti richiesti (es. coreAgent)",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "platforms",
+            "in": "query",
+            "description": "Piattaforme richieste (es. windows, mac)",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Risposta con i link agli installer",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "tenant": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "licensedProducts": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "installers": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "platform": {
+                            "type": "string"
+                          },
+                          "downloadUrl": {
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          "product": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Non autorizzato"
+          },
+          "403": {
+            "description": "Accesso negato"
+          },
+          "500": {
+            "description": "Errore interno del server"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  }
+}
