@@ -19,7 +19,7 @@
     "securitySchemes": {
       "noauthAuth": {
         "type": "http",
-        "scheme": "noauth"
+        "scheme": "basic"
       },
       "bearerAuth": {
         "type": "http",
