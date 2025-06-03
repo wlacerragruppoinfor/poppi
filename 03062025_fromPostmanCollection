@@ -385,7 +385,8 @@
               "application/json": {}
             }
           }
-        }
+        },
+        "operationId": "postApiV2Oauth2Token"
       }
     },
     "/whoami/v1": {
@@ -422,7 +423,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getWhoamiV1"
       }
     },
     "/account-health-check/v1/health-check": {
@@ -803,7 +805,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getAccount-health-checkV1Health-check"
       }
     },
     "/account-health-check/v1/snooze": {
@@ -1313,7 +1316,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postAccount-health-checkV1Snooze"
       }
     },
     "/account-health-check/v1/scores/regional": {
@@ -1451,7 +1455,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getAccount-health-checkV1ScoresRegional"
       }
     },
     "/account-health-check/v1/scores/historical": {
@@ -1621,7 +1626,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getAccount-health-checkV1ScoresHistorical"
       }
     },
     "/accounts/v1/access-tokens": {
@@ -1766,7 +1772,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getAccountsV1Access-tokens"
       },
       "post": {
         "tags": [
@@ -1931,7 +1938,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postAccountsV1Access-tokens"
       }
     },
     "/accounts/v1/access-tokens/{tokenId}": {
@@ -2046,7 +2054,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteAccountsV1Access-tokensByTokenid"
       },
       "patch": {
         "tags": [
@@ -2247,7 +2256,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchAccountsV1Access-tokensByTokenid"
       }
     },
     "/cases/v1/cases": {
@@ -2574,7 +2584,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCasesV1Cases"
       },
       "post": {
         "tags": [
@@ -2838,7 +2849,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postCasesV1Cases"
       }
     },
     "/cases/v1/cases/{caseId}": {
@@ -3111,7 +3123,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCasesV1CasesByCaseid"
       },
       "patch": {
         "tags": [
@@ -3407,7 +3420,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchCasesV1CasesByCaseid"
       },
       "delete": {
         "tags": [
@@ -3601,7 +3615,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteCasesV1CasesByCaseid"
       }
     },
     "/cases/v1/cases/{caseId}/impacted-entities": {
@@ -3837,7 +3852,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCasesV1CasesByCaseidImpacted-entities"
       }
     },
     "/cases/v1/cases/{caseId}/detections": {
@@ -4241,7 +4257,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCasesV1CasesByCaseidDetections"
       }
     },
     "/cases/v1/cases/{caseId}/mitre-attack-summary": {
@@ -4466,7 +4483,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCasesV1CasesByCaseidMitre-attack-summary"
       }
     },
     "/cases/v1/cases/{caseId}/detections/{detectionId}": {
@@ -4769,7 +4787,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCasesV1CasesByCaseidDetectionsByDetectionid"
       }
     },
     "/cloud-security/v1/profiles": {
@@ -4976,7 +4995,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCloud-securityV1Profiles"
       },
       "delete": {
         "tags": [
@@ -5145,7 +5165,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteCloud-securityV1Profiles"
       },
       "post": {
         "tags": [
@@ -5405,7 +5426,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postCloud-securityV1Profiles"
       }
     },
     "/cloud-security/v1/profiles/{profileId}": {
@@ -5617,7 +5639,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCloud-securityV1ProfilesByProfileid"
       },
       "put": {
         "tags": [
@@ -5821,7 +5844,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "putCloud-securityV1ProfilesByProfileid"
       }
     },
     "/cloud-security/v1/profiles/default-contents": {
@@ -5962,7 +5986,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCloud-securityV1ProfilesDefault-contents"
       }
     },
     "/common/v1/alerts": {
@@ -6100,7 +6125,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCommonV1Alerts"
       }
     },
     "/common/v1/alerts/search": {
@@ -6291,7 +6317,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postCommonV1AlertsSearch"
       }
     },
     "/common/v1/alerts/{alertId}": {
@@ -6397,7 +6424,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCommonV1AlertsByAlertid"
       }
     },
     "/common/v1/alerts/{alertId}/actions": {
@@ -6510,7 +6538,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postCommonV1AlertsByAlertidActions"
       }
     },
     "/common/v1/directory/users": {
@@ -6660,7 +6689,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCommonV1DirectoryUsers"
       },
       "post": {
         "tags": [
@@ -6846,7 +6876,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postCommonV1DirectoryUsers"
       }
     },
     "/common/v1/directory/users/{userId}": {
@@ -6990,7 +7021,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCommonV1DirectoryUsersByUserid"
       },
       "delete": {
         "tags": [
@@ -7103,7 +7135,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteCommonV1DirectoryUsersByUserid"
       },
       "patch": {
         "tags": [
@@ -7296,7 +7329,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchCommonV1DirectoryUsersByUserid"
       }
     },
     "/common/v1/directory/user-groups": {
@@ -7440,7 +7474,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCommonV1DirectoryUser-groups"
       },
       "post": {
         "tags": [
@@ -7620,7 +7655,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postCommonV1DirectoryUser-groups"
       }
     },
     "/common/v1/directory/user-groups/{groupId}": {
@@ -7761,7 +7797,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCommonV1DirectoryUser-groupsByGroupid"
       },
       "delete": {
         "tags": [
@@ -7874,7 +7911,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteCommonV1DirectoryUser-groupsByGroupid"
       },
       "patch": {
         "tags": [
@@ -8061,7 +8099,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchCommonV1DirectoryUser-groupsByGroupid"
       }
     },
     "/common/v1/directory/users/{userId}/groups": {
@@ -8242,7 +8281,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCommonV1DirectoryUsersByUseridGroups"
       },
       "post": {
         "tags": [
@@ -8413,7 +8453,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postCommonV1DirectoryUsersByUseridGroups"
       },
       "delete": {
         "tags": [
@@ -8568,7 +8609,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteCommonV1DirectoryUsersByUseridGroups"
       }
     },
     "/common/v1/directory/user-groups/{groupId}/users": {
@@ -8755,7 +8797,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCommonV1DirectoryUser-groupsByGroupidUsers"
       },
       "post": {
         "tags": [
@@ -8926,7 +8969,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postCommonV1DirectoryUser-groupsByGroupidUsers"
       },
       "delete": {
         "tags": [
@@ -9054,7 +9098,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteCommonV1DirectoryUser-groupsByGroupidUsers"
       }
     },
     "/common/v1/directory/users/{userId}/groups/{groupId}": {
@@ -9206,7 +9251,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteCommonV1DirectoryUsersByUseridGroupsByGroupid"
       }
     },
     "/common/v1/directory/user-groups/{groupId}/users/{userId}": {
@@ -9358,7 +9404,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteCommonV1DirectoryUser-groupsByGroupidUsersByUserid"
       }
     },
     "/common/v1/roles": {
@@ -9461,7 +9508,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCommonV1Roles"
       },
       "post": {
         "tags": [
@@ -9599,7 +9647,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postCommonV1Roles"
       }
     },
     "/common/v1/roles/{roleId}": {
@@ -9723,7 +9772,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCommonV1RolesByRoleid"
       },
       "delete": {
         "tags": [
@@ -9836,7 +9886,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteCommonV1RolesByRoleid"
       },
       "patch": {
         "tags": [
@@ -10010,7 +10061,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchCommonV1RolesByRoleid"
       }
     },
     "/common/v1/roles/permission-sets": {
@@ -10121,7 +10173,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCommonV1RolesPermission-sets"
       }
     },
     "/common/v1/admins": {
@@ -10253,7 +10306,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCommonV1Admins"
       },
       "post": {
         "tags": [
@@ -10402,7 +10456,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postCommonV1Admins"
       }
     },
     "/common/v1/admins/{adminId}": {
@@ -10538,7 +10593,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCommonV1AdminsByAdminid"
       },
       "delete": {
         "tags": [
@@ -10669,7 +10725,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteCommonV1AdminsByAdminid"
       }
     },
     "/common/v1/admins/{adminId}/role-assignments": {
@@ -10767,7 +10824,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCommonV1AdminsByAdminidRole-assignments"
       },
       "post": {
         "tags": [
@@ -10895,7 +10953,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postCommonV1AdminsByAdminidRole-assignments"
       }
     },
     "/common/v1/admins/{adminId}/role-assignments/{assignmentId}": {
@@ -11015,7 +11074,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCommonV1AdminsByAdminidRole-assignmentsByAssignmentid"
       },
       "delete": {
         "tags": [
@@ -11108,7 +11168,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteCommonV1AdminsByAdminidRole-assignmentsByAssignmentid"
       }
     },
     "/detections/v1/queries/detections": {
@@ -11307,7 +11368,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postDetectionsV1QueriesDetections"
       }
     },
     "/detections/v1/queries/detections/{runId}": {
@@ -11482,7 +11544,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getDetectionsV1QueriesDetectionsByRunid"
       }
     },
     "/detections/v1/queries/detections/{runId}/results": {
@@ -11886,7 +11949,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getDetectionsV1QueriesDetectionsByRunidResults"
       }
     },
     "/detections/v1/queries/detections/counts": {
@@ -12086,7 +12150,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getDetectionsV1QueriesDetectionsCounts"
       }
     },
     "/detections/v1/queries/detection-groups": {
@@ -12285,7 +12350,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postDetectionsV1QueriesDetection-groups"
       }
     },
     "/detections/v1/queries/detection-groups/{runId}": {
@@ -12460,7 +12526,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getDetectionsV1QueriesDetection-groupsByRunid"
       }
     },
     "/detections/v1/queries/detection-groups/{runId}/results": {
@@ -12747,7 +12814,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getDetectionsV1QueriesDetection-groupsByRunidResults"
       }
     },
     "/email/v1/messages/{id}/clawback": {
@@ -12980,7 +13048,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEmailV1MessagesByIdClawback"
       }
     },
     "/email/v1/messages/{id}/status": {
@@ -13185,7 +13254,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEmailV1MessagesByIdStatus"
       }
     },
     "/email/v1/mailboxes": {
@@ -13369,7 +13439,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEmailV1Mailboxes"
       },
       "post": {
         "tags": [
@@ -13554,7 +13625,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEmailV1Mailboxes"
       }
     },
     "/email/v1/mailboxes/bulk": {
@@ -13783,7 +13855,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEmailV1MailboxesBulk"
       }
     },
     "/email/v1/mailboxes/delete": {
@@ -13932,7 +14005,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEmailV1MailboxesDelete"
       }
     },
     "/email/v1/mailboxes/{id}": {
@@ -14107,7 +14181,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEmailV1MailboxesById"
       },
       "patch": {
         "tags": [
@@ -14327,7 +14402,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchEmailV1MailboxesById"
       },
       "delete": {
         "tags": [
@@ -14440,7 +14516,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteEmailV1MailboxesById"
       }
     },
     "/email/v1/mailboxes/{id}/aliases": {
@@ -14685,7 +14762,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEmailV1MailboxesByIdAliases"
       }
     },
     "/email/v1/mailboxes/{id}/delegates": {
@@ -14930,7 +15008,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEmailV1MailboxesByIdDelegates"
       }
     },
     "/email/v1/mailboxes/{id}/distribution-list-owners": {
@@ -15146,7 +15225,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEmailV1MailboxesByIdDistribution-list-owners"
       }
     },
     "/email/v1/mailboxes/{id}/bulksender-privilege-request": {
@@ -15310,7 +15390,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEmailV1MailboxesByIdBulksender-privilege-request"
       }
     },
     "/email/v1/post-delivery-quarantine/messages/search": {
@@ -15575,7 +15656,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEmailV1Post-delivery-quarantineMessagesSearch"
       }
     },
     "/email/v1/post-delivery-quarantine/messages/{id}/preview": {
@@ -15723,7 +15805,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEmailV1Post-delivery-quarantineMessagesByIdPreview"
       }
     },
     "/email/v1/post-delivery-quarantine/messages/{id}/attachments": {
@@ -15881,7 +15964,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEmailV1Post-delivery-quarantineMessagesByIdAttachments"
       }
     },
     "/email/v1/post-delivery-quarantine/messages/release": {
@@ -16042,7 +16126,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEmailV1Post-delivery-quarantineMessagesRelease"
       }
     },
     "/email/v1/post-delivery-quarantine/messages/delete": {
@@ -16203,7 +16288,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEmailV1Post-delivery-quarantineMessagesDelete"
       }
     },
     "/email/v1/post-delivery-quarantine/messages/{id}/attachments/download": {
@@ -16376,7 +16462,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEmailV1Post-delivery-quarantineMessagesByIdAttachmentsDownload"
       }
     },
     "/email/v1/post-delivery-quarantine/downloads/{downloadId}/status": {
@@ -16526,7 +16613,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEmailV1Post-delivery-quarantineDownloadsByDownloadidStatus"
       }
     },
     "/email/v1/quarantine/messages/search": {
@@ -16845,7 +16933,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEmailV1QuarantineMessagesSearch"
       }
     },
     "/email/v1/quarantine/messages/{id}/preview": {
@@ -16992,7 +17081,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEmailV1QuarantineMessagesByIdPreview"
       }
     },
     "/email/v1/quarantine/messages/{id}/urls": {
@@ -17144,7 +17234,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEmailV1QuarantineMessagesByIdUrls"
       }
     },
     "/email/v1/quarantine/messages/{id}/attachments": {
@@ -17306,7 +17397,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEmailV1QuarantineMessagesByIdAttachments"
       }
     },
     "/email/v1/quarantine/messages/release": {
@@ -17478,7 +17570,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEmailV1QuarantineMessagesRelease"
       }
     },
     "/email/v1/quarantine/messages/delete": {
@@ -17640,7 +17733,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEmailV1QuarantineMessagesDelete"
       }
     },
     "/email/v1/quarantine/messages/{id}/attachments/strip": {
@@ -17830,7 +17924,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEmailV1QuarantineMessagesByIdAttachmentsStrip"
       }
     },
     "/email/v1/quarantine/messages/{id}/attachments/reattach": {
@@ -18020,7 +18115,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEmailV1QuarantineMessagesByIdAttachmentsReattach"
       }
     },
     "/email/v1/quarantine/messages/{id}/attachments/download": {
@@ -18193,7 +18289,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEmailV1QuarantineMessagesByIdAttachmentsDownload"
       }
     },
     "/email/v1/quarantine/downloads/{downloadId}/status": {
@@ -18316,7 +18413,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEmailV1QuarantineDownloadsByDownloadidStatus"
       }
     },
     "/endpoint/v1/endpoints/{endpointId}/adaptive-attack-protection": {
@@ -18521,7 +18619,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1EndpointsByEndpointidAdaptive-attack-protection"
       },
       "post": {
         "tags": [
@@ -18745,7 +18844,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1EndpointsByEndpointidAdaptive-attack-protection"
       }
     },
     "/endpoint/v1/settings/allowed-items": {
@@ -18879,7 +18979,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsAllowed-items"
       },
       "post": {
         "tags": [
@@ -19030,7 +19131,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1SettingsAllowed-items"
       }
     },
     "/endpoint/v1/settings/allowed-items/{allowedItemId}": {
@@ -19193,7 +19295,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsAllowed-itemsByAlloweditemid"
       },
       "patch": {
         "tags": [
@@ -19347,7 +19450,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchEndpointV1SettingsAllowed-itemsByAlloweditemid"
       },
       "delete": {
         "tags": [
@@ -19433,7 +19537,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteEndpointV1SettingsAllowed-itemsByAlloweditemid"
       }
     },
     "/endpoint/v1/settings/blocked-items": {
@@ -19567,7 +19672,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsBlocked-items"
       },
       "post": {
         "tags": [
@@ -19717,7 +19823,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1SettingsBlocked-items"
       }
     },
     "/endpoint/v1/settings/blocked-items/{blockedItemId}": {
@@ -19853,7 +19960,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsBlocked-itemsByBlockeditemid"
       },
       "delete": {
         "tags": [
@@ -19939,7 +20047,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteEndpointV1SettingsBlocked-itemsByBlockeditemid"
       }
     },
     "/endpoint/v1/downloads": {
@@ -20072,7 +20181,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1Downloads"
       }
     },
     "/endpoint/v1/endpoint-groups": {
@@ -20208,7 +20318,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1Endpoint-groups"
       },
       "post": {
         "tags": [
@@ -20387,7 +20498,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1Endpoint-groups"
       }
     },
     "/endpoint/v1/endpoint-groups/types/{groupType}": {
@@ -20533,7 +20645,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1Endpoint-groupsTypesByGrouptype"
       }
     },
     "/endpoint/v1/endpoint-groups/{groupId}": {
@@ -20670,7 +20783,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1Endpoint-groupsByGroupid"
       },
       "delete": {
         "tags": [
@@ -20783,7 +20897,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteEndpointV1Endpoint-groupsByGroupid"
       },
       "patch": {
         "tags": [
@@ -20965,7 +21080,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchEndpointV1Endpoint-groupsByGroupid"
       }
     },
     "/endpoint/v1/endpoint-groups/{groupId}/endpoints": {
@@ -21281,7 +21397,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1Endpoint-groupsByGroupidEndpoints"
       },
       "post": {
         "tags": [
@@ -21466,7 +21583,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1Endpoint-groupsByGroupidEndpoints"
       },
       "delete": {
         "tags": [
@@ -21567,7 +21685,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteEndpointV1Endpoint-groupsByGroupidEndpoints"
       }
     },
     "/endpoint/v1/endpoint-groups/{groupId}/endpoints/{endpointId}": {
@@ -21719,7 +21838,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteEndpointV1Endpoint-groupsByGroupidEndpointsByEndpointid"
       }
     },
     "/endpoint/v1/endpoints/isolation": {
@@ -21979,7 +22099,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1EndpointsIsolation"
       }
     },
     "/endpoint/v1/endpoints/{endpointId}/isolation": {
@@ -22192,7 +22313,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1EndpointsByEndpointidIsolation"
       },
       "patch": {
         "tags": [
@@ -22424,7 +22546,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchEndpointV1EndpointsByEndpointidIsolation"
       }
     },
     "/endpoint/v1/endpoints": {
@@ -22760,7 +22883,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1Endpoints"
       }
     },
     "/endpoint/v1/endpoints/delete": {
@@ -22945,7 +23069,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1EndpointsDelete"
       }
     },
     "/endpoint/v1/endpoints/{endpointId}": {
@@ -23234,7 +23359,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1EndpointsByEndpointid"
       },
       "delete": {
         "tags": [
@@ -23320,7 +23446,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteEndpointV1EndpointsByEndpointid"
       }
     },
     "/endpoint/v1/settings/event-journal/{endpointType}": {
@@ -23524,7 +23651,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsEvent-journalByEndpointtype"
       },
       "patch": {
         "tags": [
@@ -23748,7 +23876,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchEndpointV1SettingsEvent-journalByEndpointtype"
       }
     },
     "/endpoint/v1/settings/exploit-mitigation/detected-exploits": {
@@ -23866,7 +23995,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsExploit-mitigationDetected-exploits"
       }
     },
     "/endpoint/v1/settings/exploit-mitigation/detected-exploits/{detectedExploitId}": {
@@ -23994,7 +24124,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsExploit-mitigationDetected-exploitsByDetectedexploitid"
       }
     },
     "/endpoint/v1/settings/exploit-mitigation/categories": {
@@ -24121,7 +24252,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsExploit-mitigationCategories"
       }
     },
     "/endpoint/v1/settings/exploit-mitigation/applications": {
@@ -24273,7 +24405,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsExploit-mitigationApplications"
       },
       "post": {
         "tags": [
@@ -24428,7 +24561,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1SettingsExploit-mitigationApplications"
       }
     },
     "/endpoint/v1/settings/exploit-mitigation/applications/{exploitMitigationApplicationId}": {
@@ -24573,7 +24707,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsExploit-mitigationApplicationsByExploitmitigationapplicationid"
       },
       "patch": {
         "tags": [
@@ -24761,7 +24896,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchEndpointV1SettingsExploit-mitigationApplicationsByExploitmitigationapplicationid"
       },
       "delete": {
         "tags": [
@@ -24847,7 +24983,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteEndpointV1SettingsExploit-mitigationApplicationsByExploitmitigationapplicationid"
       }
     },
     "/endpoint/v1/endpoints/{endpointId}/forensic-logs": {
@@ -25067,7 +25204,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1EndpointsByEndpointidForensic-logs"
       }
     },
     "/endpoint/v1/endpoints/{endpointId}/forensic-logs/{forensicLogRequestId}": {
@@ -25281,7 +25419,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1EndpointsByEndpointidForensic-logsByForensiclogrequestid"
       }
     },
     "/endpoint/v1/settings/tamper-protection": {
@@ -25359,7 +25498,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsTamper-protection"
       }
     },
     "/endpoint/v1/settings/exclusions/intrusion-prevention": {
@@ -25481,7 +25621,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsExclusionsIntrusion-prevention"
       },
       "post": {
         "tags": [
@@ -25629,7 +25770,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1SettingsExclusionsIntrusion-prevention"
       }
     },
     "/endpoint/v1/settings/exclusions/intrusion-prevention/{exclusionId}": {
@@ -25759,7 +25901,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsExclusionsIntrusion-preventionByExclusionid"
       },
       "delete": {
         "tags": [
@@ -25845,7 +25988,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteEndpointV1SettingsExclusionsIntrusion-preventionByExclusionid"
       },
       "patch": {
         "tags": [
@@ -26003,7 +26147,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchEndpointV1SettingsExclusionsIntrusion-preventionByExclusionid"
       }
     },
     "/endpoint/v1/settings/exclusions/isolation": {
@@ -26125,7 +26270,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsExclusionsIsolation"
       },
       "post": {
         "tags": [
@@ -26273,7 +26419,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1SettingsExclusionsIsolation"
       }
     },
     "/endpoint/v1/settings/exclusions/isolation/{exclusionId}": {
@@ -26403,7 +26550,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsExclusionsIsolationByExclusionid"
       },
       "delete": {
         "tags": [
@@ -26489,7 +26637,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteEndpointV1SettingsExclusionsIsolationByExclusionid"
       },
       "patch": {
         "tags": [
@@ -26647,7 +26796,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchEndpointV1SettingsExclusionsIsolationByExclusionid"
       }
     },
     "/endpoint/v1/migrations": {
@@ -26788,7 +26938,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1Migrations"
       },
       "post": {
         "tags": [
@@ -26929,7 +27080,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1Migrations"
       }
     },
     "/endpoint/v1/migrations/{migrationJobId}": {
@@ -27082,7 +27234,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1MigrationsByMigrationjobid"
       },
       "put": {
         "tags": [
@@ -27265,7 +27418,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "putEndpointV1MigrationsByMigrationjobid"
       }
     },
     "/endpoint/v1/migrations/{migrationJobId}/endpoints": {
@@ -27404,7 +27558,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1MigrationsByMigrationjobidEndpoints"
       }
     },
     "/endpoint/v1/software/packages/recommended": {
@@ -27540,7 +27695,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SoftwarePackagesRecommended"
       }
     },
     "/endpoint/v1/software/packages/static": {
@@ -27688,7 +27844,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SoftwarePackagesStatic"
       }
     },
     "/endpoint/v1/software/packages/static/{staticPackageId}": {
@@ -27848,7 +28005,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SoftwarePackagesStaticByStaticpackageid"
       }
     },
     "/endpoint/v1/software/packages/static/{staticPackageId}/add": {
@@ -28038,7 +28196,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1SoftwarePackagesStaticByStaticpackageidAdd"
       }
     },
     "/endpoint/v1/software/comments": {
@@ -28194,7 +28353,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SoftwareComments"
       }
     },
     "/endpoint/v1/software/comments/{staticPackageId}": {
@@ -28358,7 +28518,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SoftwareCommentsByStaticpackageid"
       },
       "put": {
         "tags": [
@@ -28540,7 +28701,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "putEndpointV1SoftwareCommentsByStaticpackageid"
       },
       "delete": {
         "tags": [
@@ -28680,7 +28842,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteEndpointV1SoftwareCommentsByStaticpackageid"
       }
     },
     "/endpoint/v1/settings/peripheral-control/peripherals": {
@@ -28798,7 +28961,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsPeripheral-controlPeripherals"
       }
     },
     "/endpoint/v1/settings/peripheral-control/peripherals/{peripheralId}": {
@@ -28926,7 +29090,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsPeripheral-controlPeripheralsByPeripheralid"
       }
     },
     "/endpoint/v1/policies": {
@@ -29124,7 +29289,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1Policies"
       },
       "post": {
         "tags": [
@@ -29274,7 +29440,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1Policies"
       }
     },
     "/endpoint/v1/policies/settings": {
@@ -29500,7 +29667,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1PoliciesSettings"
       }
     },
     "/endpoint/v1/policies/{policyId}": {
@@ -29668,7 +29836,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1PoliciesByPolicyid"
       },
       "patch": {
         "tags": [
@@ -29908,7 +30077,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchEndpointV1PoliciesByPolicyid"
       },
       "delete": {
         "tags": [
@@ -30021,7 +30191,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteEndpointV1PoliciesByPolicyid"
       }
     },
     "/endpoint/v1/policies/{policyId}/settings": {
@@ -30159,7 +30330,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1PoliciesByPolicyidSettings"
       },
       "patch": {
         "tags": [
@@ -30347,7 +30519,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchEndpointV1PoliciesByPolicyidSettings"
       }
     },
     "/endpoint/v1/policies/{policyId}/settings/reset": {
@@ -30515,7 +30688,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1PoliciesByPolicyidSettingsReset"
       }
     },
     "/endpoint/v1/policies/{policyId}/settings/{settingKey}": {
@@ -30638,7 +30812,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1PoliciesByPolicyidSettingsBySettingkey"
       }
     },
     "/endpoint/v1/policies/{policyId}/settings/{settingKey}/reset": {
@@ -30791,7 +30966,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1PoliciesByPolicyidSettingsBySettingkeyReset"
       }
     },
     "/endpoint/v1/policies/{policyId}/clone": {
@@ -30979,7 +31155,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1PoliciesByPolicyidClone"
       }
     },
     "/endpoint/v1/policies/{policyType}/base": {
@@ -31120,7 +31297,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1PoliciesByPolicytypeBase"
       },
       "patch": {
         "tags": [
@@ -31340,7 +31518,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchEndpointV1PoliciesByPolicytypeBase"
       }
     },
     "/endpoint/v1/policies/{policyType}/base/settings": {
@@ -31451,7 +31630,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1PoliciesByPolicytypeBaseSettings"
       },
       "patch": {
         "tags": [
@@ -31612,7 +31792,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchEndpointV1PoliciesByPolicytypeBaseSettings"
       }
     },
     "/endpoint/v1/policies/{policyType}/base/settings/reset": {
@@ -31753,7 +31934,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1PoliciesByPolicytypeBaseSettingsReset"
       }
     },
     "/endpoint/v1/policies/{policyType}/base/settings/{settingKey}": {
@@ -31903,7 +32085,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1PoliciesByPolicytypeBaseSettingsBySettingkey"
       },
       "patch": {
         "tags": [
@@ -32071,7 +32254,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchEndpointV1PoliciesByPolicytypeBaseSettingsBySettingkey"
       }
     },
     "/endpoint/v1/policies/{policyType}/base/settings/{settingKey}/reset": {
@@ -32224,7 +32408,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1PoliciesByPolicytypeBaseSettingsBySettingkeyReset"
       }
     },
     "/endpoint/v1/policies/{policyType}/base/clone": {
@@ -32385,7 +32570,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1PoliciesByPolicytypeBaseClone"
       }
     },
     "/endpoint/v1/settings/exclusions/scanning": {
@@ -32489,7 +32675,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsExclusionsScanning"
       },
       "post": {
         "tags": [
@@ -32621,7 +32808,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1SettingsExclusionsScanning"
       }
     },
     "/endpoint/v1/settings/exclusions/scanning/{exclusionId}": {
@@ -32742,7 +32930,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsExclusionsScanningByExclusionid"
       },
       "patch": {
         "tags": [
@@ -32883,7 +33072,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchEndpointV1SettingsExclusionsScanningByExclusionid"
       },
       "delete": {
         "tags": [
@@ -32969,7 +33159,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteEndpointV1SettingsExclusionsScanningByExclusionid"
       }
     },
     "/endpoint/v1/endpoints/{endpointId}/scans": {
@@ -33096,7 +33287,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1EndpointsByEndpointidScans"
       }
     },
     "/endpoint/v1/endpoints/{endpointId}/tamper-protection": {
@@ -33222,7 +33414,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1EndpointsByEndpointidTamper-protection"
       },
       "post": {
         "tags": [
@@ -33366,7 +33559,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1EndpointsByEndpointidTamper-protection"
       }
     },
     "/endpoint/v1/endpoints/{endpointId}/update-checks": {
@@ -33501,7 +33695,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1EndpointsByEndpointidUpdate-checks"
       }
     },
     "/endpoint/v1/settings/web-control/local-sites": {
@@ -33607,7 +33802,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsWeb-controlLocal-sites"
       },
       "post": {
         "tags": [
@@ -33739,7 +33935,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postEndpointV1SettingsWeb-controlLocal-sites"
       }
     },
     "/endpoint/v1/settings/web-control/local-sites/{localSiteId}": {
@@ -33861,7 +34058,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsWeb-controlLocal-sitesByLocalsiteid"
       },
       "patch": {
         "tags": [
@@ -34003,7 +34201,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchEndpointV1SettingsWeb-controlLocal-sitesByLocalsiteid"
       },
       "delete": {
         "tags": [
@@ -34089,7 +34288,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteEndpointV1SettingsWeb-controlLocal-sitesByLocalsiteid"
       }
     },
     "/endpoint/v1/settings/web-control/categories": {
@@ -34176,7 +34376,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsWeb-controlCategories"
       }
     },
     "/endpoint/v1/settings/web-control/tls-decryption": {
@@ -34281,7 +34482,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsWeb-controlTls-decryption"
       },
       "patch": {
         "tags": [
@@ -34409,7 +34611,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchEndpointV1SettingsWeb-controlTls-decryption"
       }
     },
     "/endpoint/v1/settings/web-control/tls-decryption/excluded-websites": {
@@ -34503,7 +34706,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getEndpointV1SettingsWeb-controlTls-decryptionExcluded-websites"
       },
       "patch": {
         "tags": [
@@ -34683,7 +34887,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchEndpointV1SettingsWeb-controlTls-decryptionExcluded-websites"
       },
       "delete": {
         "tags": [
@@ -34759,7 +34964,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteEndpointV1SettingsWeb-controlTls-decryptionExcluded-websites"
       }
     },
     "/firewall/v1/firewall-groups": {
@@ -34955,7 +35161,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getFirewallV1Firewall-groups"
       },
       "post": {
         "tags": [
@@ -35204,7 +35411,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postFirewallV1Firewall-groups"
       }
     },
     "/firewall/v1/firewall-groups/{groupId}": {
@@ -35473,7 +35681,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchFirewallV1Firewall-groupsByGroupid"
       },
       "delete": {
         "tags": [
@@ -35640,7 +35849,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteFirewallV1Firewall-groupsByGroupid"
       }
     },
     "/firewall/v1/firewall-groups/{groupId}/firewalls/sync-status": {
@@ -35851,7 +36061,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getFirewallV1Firewall-groupsByGroupidFirewallsSync-status"
       }
     },
     "/firewall/v1/firewalls": {
@@ -36049,7 +36260,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getFirewallV1Firewalls"
       }
     },
     "/firewall/v1/firewalls/{firewallId}": {
@@ -36351,7 +36563,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchFirewallV1FirewallsByFirewallid"
       },
       "delete": {
         "tags": [
@@ -36518,7 +36731,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteFirewallV1FirewallsByFirewallid"
       }
     },
     "/firewall/v1/firewalls/{firewallId}/action": {
@@ -36735,7 +36949,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postFirewallV1FirewallsByFirewallidAction"
       }
     },
     "/firewall/v1/firewalls/actions/firmware-upgrade-check": {
@@ -36989,7 +37204,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postFirewallV1FirewallsActionsFirmware-upgrade-check"
       }
     },
     "/firewall/v1/firewalls/actions/firmware-upgrade": {
@@ -37219,7 +37435,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postFirewallV1FirewallsActionsFirmware-upgrade"
       },
       "delete": {
         "tags": [
@@ -37403,7 +37620,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteFirewallV1FirewallsActionsFirmware-upgrade"
       }
     },
     "/licenses/v1/licenses": {
@@ -37532,7 +37750,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getLicensesV1Licenses"
       }
     },
     "/licenses/v1/licenses/firewalls": {
@@ -37763,7 +37982,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getLicensesV1LicensesFirewalls"
       }
     },
     "/live-discover/v1/queries/categories": {
@@ -37882,7 +38102,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getLive-discoverV1QueriesCategories"
       }
     },
     "/live-discover/v1/queries/categories/{categoryId}": {
@@ -38014,7 +38235,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getLive-discoverV1QueriesCategoriesByCategoryid"
       }
     },
     "/live-discover/v1/queries": {
@@ -38208,7 +38430,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getLive-discoverV1Queries"
       }
     },
     "/live-discover/v1/queries/{queryId}": {
@@ -38374,7 +38597,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getLive-discoverV1QueriesByQueryid"
       }
     },
     "/live-discover/v1/queries/runs": {
@@ -38770,7 +38994,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getLive-discoverV1QueriesRuns"
       },
       "post": {
         "tags": [
@@ -39091,7 +39316,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postLive-discoverV1QueriesRuns"
       }
     },
     "/live-discover/v1/queries/runs/{runId}": {
@@ -39355,7 +39581,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getLive-discoverV1QueriesRunsByRunid"
       }
     },
     "/live-discover/v1/queries/runs/{runId}/endpoints": {
@@ -39544,7 +39771,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getLive-discoverV1QueriesRunsByRunidEndpoints"
       }
     },
     "/live-discover/v1/queries/runs/{runId}/results": {
@@ -39688,7 +39916,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getLive-discoverV1QueriesRunsByRunidResults"
       }
     },
     "/mobile/v1/actions": {
@@ -39921,7 +40150,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getMobileV1Actions"
       }
     },
     "/mobile/v1/actions/{id}": {
@@ -40139,7 +40369,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getMobileV1ActionsById"
       },
       "delete": {
         "tags": [
@@ -40345,7 +40576,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteMobileV1ActionsById"
       }
     },
     "/mobile/v1/actions/sync": {
@@ -40588,7 +40820,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postMobileV1ActionsSync"
       }
     },
     "/mobile/v1/actions/get-logs": {
@@ -40823,7 +41056,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postMobileV1ActionsGet-logs"
       }
     },
     "/mobile/v1/actions/scan": {
@@ -41058,7 +41292,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postMobileV1ActionsScan"
       }
     },
     "/mobile/v1/actions/unenroll": {
@@ -41293,7 +41528,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postMobileV1ActionsUnenroll"
       }
     },
     "/mobile/v1/actions/send-message": {
@@ -41531,7 +41767,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postMobileV1ActionsSend-message"
       }
     },
     "/mobile/v1/actions/locate": {
@@ -41769,7 +42006,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postMobileV1ActionsLocate"
       }
     },
     "/mobile/v1/actions/lock": {
@@ -42007,7 +42245,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postMobileV1ActionsLock"
       }
     },
     "/mobile/v1/actions/wipe": {
@@ -42245,7 +42484,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postMobileV1ActionsWipe"
       }
     },
     "/mobile/v1/app-groups": {
@@ -42441,7 +42681,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getMobileV1App-groups"
       },
       "post": {
         "tags": [
@@ -42681,7 +42922,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postMobileV1App-groups"
       }
     },
     "/mobile/v1/app-groups/{id}": {
@@ -42899,7 +43141,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getMobileV1App-groupsById"
       },
       "patch": {
         "tags": [
@@ -43172,7 +43415,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchMobileV1App-groupsById"
       },
       "delete": {
         "tags": [
@@ -43378,7 +43622,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteMobileV1App-groupsById"
       }
     },
     "/mobile/v1/device-groups": {
@@ -43595,7 +43840,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getMobileV1Device-groups"
       },
       "post": {
         "tags": [
@@ -43850,7 +44096,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postMobileV1Device-groups"
       }
     },
     "/mobile/v1/device-groups/{id}": {
@@ -44071,7 +44318,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getMobileV1Device-groupsById"
       },
       "put": {
         "tags": [
@@ -44334,7 +44582,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "putMobileV1Device-groupsById"
       },
       "delete": {
         "tags": [
@@ -44540,7 +44789,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteMobileV1Device-groupsById"
       }
     },
     "/mobile/v1/devices": {
@@ -44784,7 +45034,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getMobileV1Devices"
       },
       "post": {
         "tags": [
@@ -45048,7 +45299,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postMobileV1Devices"
       }
     },
     "/mobile/v1/devices/{id}": {
@@ -45293,7 +45545,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getMobileV1DevicesById"
       },
       "put": {
         "tags": [
@@ -45582,7 +45835,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "putMobileV1DevicesById"
       },
       "delete": {
         "tags": [
@@ -45788,7 +46042,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteMobileV1DevicesById"
       }
     },
     "/mobile/v1/devices/{id}/properties": {
@@ -45983,7 +46238,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getMobileV1DevicesByIdProperties"
       },
       "post": {
         "tags": [
@@ -46239,7 +46495,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postMobileV1DevicesByIdProperties"
       }
     },
     "/mobile/v1/devices/{id}/properties/{propertyKey}": {
@@ -46479,7 +46736,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "putMobileV1DevicesByIdPropertiesByPropertykey"
       },
       "delete": {
         "tags": [
@@ -46695,7 +46953,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deleteMobileV1DevicesByIdPropertiesByPropertykey"
       }
     },
     "/mobile/v1/devices/{id}/compliance-violations": {
@@ -46915,7 +47174,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getMobileV1DevicesByIdCompliance-violations"
       }
     },
     "/mobile/v1/devices/{id}/scan-results": {
@@ -47138,7 +47398,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getMobileV1DevicesByIdScan-results"
       }
     },
     "/mobile/v1/devices/{id}/policies": {
@@ -47366,7 +47627,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getMobileV1DevicesByIdPolicies"
       }
     },
     "/mobile/v1/devices/{id}/installed-apps": {
@@ -47587,7 +47849,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getMobileV1DevicesByIdInstalled-apps"
       }
     },
     "/mobile/v1/devices/{id}/location": {
@@ -47798,7 +48061,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getMobileV1DevicesByIdLocation"
       }
     },
     "/mobile/v1/operating-systems": {
@@ -48014,7 +48278,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getMobileV1Operating-systems"
       }
     },
     "/mobile/v1/operating-systems/{id}": {
@@ -48204,7 +48469,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getMobileV1Operating-systemsById"
       }
     },
     "/mobile/v1/static-setup-data/ixm-auto-enrollment": {
@@ -48405,7 +48671,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getMobileV1Static-setup-dataIxm-auto-enrollment"
       }
     },
     "/organization/v1/tenants": {
@@ -48521,7 +48788,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getOrganizationV1Tenants"
       }
     },
     "/organization/v1/tenants/{tenantId}": {
@@ -48621,7 +48889,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getOrganizationV1TenantsByTenantid"
       }
     },
     "/partner/v1/tenants": {
@@ -48751,7 +49020,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postPartnerV1Tenants"
       },
       "get": {
         "tags": [
@@ -48865,7 +49135,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getPartnerV1Tenants"
       }
     },
     "/partner/v1/tenants/{tenantId}": {
@@ -48965,7 +49236,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getPartnerV1TenantsByTenantid"
       }
     },
     "/partner/v1/roles": {
@@ -49068,7 +49340,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getPartnerV1Roles"
       },
       "post": {
         "tags": [
@@ -49205,7 +49478,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postPartnerV1Roles"
       }
     },
     "/partner/v1/roles/{roleId}": {
@@ -49329,7 +49603,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getPartnerV1RolesByRoleid"
       },
       "delete": {
         "tags": [
@@ -49442,7 +49717,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deletePartnerV1RolesByRoleid"
       },
       "patch": {
         "tags": [
@@ -49588,7 +49864,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "patchPartnerV1RolesByRoleid"
       }
     },
     "/partner/v1/roles/permission-sets": {
@@ -49699,7 +49976,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getPartnerV1RolesPermission-sets"
       }
     },
     "/partner/v1/admins": {
@@ -49849,7 +50127,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getPartnerV1Admins"
       },
       "post": {
         "tags": [
@@ -50052,7 +50331,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postPartnerV1Admins"
       }
     },
     "/partner/v1/admins/{adminId}": {
@@ -50196,7 +50476,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getPartnerV1AdminsByAdminid"
       }
     },
     "/partner/v1/admins/{adminId}/role-assignments": {
@@ -50328,7 +50609,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getPartnerV1AdminsByAdminidRole-assignments"
       },
       "post": {
         "tags": [
@@ -50497,7 +50779,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postPartnerV1AdminsByAdminidRole-assignments"
       }
     },
     "/partner/v1/admins/{adminId}/role-assignments/{assignmentId}": {
@@ -50627,7 +50910,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getPartnerV1AdminsByAdminidRole-assignmentsByAssignmentid"
       },
       "delete": {
         "tags": [
@@ -50723,7 +51007,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "deletePartnerV1AdminsByAdminidRole-assignmentsByAssignmentid"
       }
     },
     "/partner/v1/billing/usage/{year}/{month}": {
@@ -50931,7 +51216,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getPartnerV1BillingUsageByYearByMonth"
       }
     },
     "/siem/v1/events": {
@@ -51253,7 +51539,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getSiemV1Events"
       }
     },
     "/siem/v1/alerts": {
@@ -51445,7 +51732,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getSiemV1Alerts"
       }
     },
     "/switch/v1/settings/mac-filtering": {
@@ -51651,7 +51939,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getSwitchV1SettingsMac-filtering"
       },
       "put": {
         "tags": [
@@ -51878,7 +52167,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "putSwitchV1SettingsMac-filtering"
       }
     },
     "/switch/v1/tasks": {
@@ -52131,7 +52421,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getSwitchV1Tasks"
       }
     },
     "/user-activity-verification/v1/attestations": {
@@ -52372,7 +52663,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postUser-activity-verificationV1Attestations"
       }
     },
     "/user-activity-verification/v1/attestations/{attestationId}": {
@@ -52570,7 +52862,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getUser-activity-verificationV1AttestationsByAttestationid"
       }
     },
     "/wifi/v1/settings/mac-filtering": {
@@ -52749,7 +53042,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getWifiV1SettingsMac-filtering"
       },
       "put": {
         "tags": [
@@ -52949,7 +53243,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "putWifiV1SettingsMac-filtering"
       }
     },
     "/wifi/v1/tasks": {
@@ -53202,7 +53497,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getWifiV1Tasks"
       }
     },
     "/xdr-query/v1/queries/runs": {
@@ -53419,7 +53715,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getXdr-queryV1QueriesRuns"
       },
       "post": {
         "tags": [
@@ -53595,7 +53892,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postXdr-queryV1QueriesRuns"
       }
     },
     "/xdr-query/v1/queries/runs/{runId}": {
@@ -53786,7 +54084,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getXdr-queryV1QueriesRunsByRunid"
       }
     },
     "/xdr-query/v1/queries/runs/{runId}/cancel": {
@@ -53946,7 +54245,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "postXdr-queryV1QueriesRunsByRunidCancel"
       }
     },
     "/xdr-query/v1/queries/runs/{runId}/results": {
@@ -54114,7 +54414,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getXdr-queryV1QueriesRunsByRunidResults"
       }
     },
     "/xdr-query/v1/queries/categories": {
@@ -54260,7 +54561,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getXdr-queryV1QueriesCategories"
       }
     },
     "/xdr-query/v1/queries/categories/{categoryId}": {
@@ -54392,7 +54694,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getXdr-queryV1QueriesCategoriesByCategoryid"
       }
     },
     "/xdr-query/v1/queries": {
@@ -54603,7 +54906,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getXdr-queryV1Queries"
       }
     },
     "/xdr-query/v1/queries/{queryId}": {
@@ -54764,7 +55068,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getXdr-queryV1QueriesByQueryid"
       }
     }
   }
