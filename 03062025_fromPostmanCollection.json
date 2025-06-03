@@ -54808,7 +54808,7 @@
             "url": "https://api.central.sophos.com"
         },
         {
-            "url": "https://api-{{dataregion}}.central.sophos.com",
+            "url": "https://api-{dataregion}.central.sophos.com",
             "variables": {
                 "dataRegion": {
                     "default": "us01",
